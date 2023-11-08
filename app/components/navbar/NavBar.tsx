@@ -12,12 +12,12 @@ const NavBar = () => {
           <div className="flex items-center justify-between gap-3 md:gap-0">
             <Link
               href="/"
-              className={`${redressed.className} font-bold text-2x1`}
+              className={`${redressed.className} font-bold text-2xl`}
             >
               E-Commerce Shop
             </Link>
             <div className="hidden md:block">Search</div>
-            <div className="flex items-center gap-8 md:gap12">
+            <div className="flex items-center gap-8 md:gap-12">
               <span>CartCount</span>
               <span>UserMenu</span>
             </div>
